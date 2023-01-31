@@ -1,0 +1,14 @@
+<div class="container">
+    <mat-card class="card" >
+        <mat-card-title>Registro de Salida</mat-card-title>
+        <mat-divider></mat-divider>
+        <mat-form-field appearance="outline">
+            <mat-label>Ingrese el codigo de estudiante</mat-label>
+            <input [(ngModel)]="estudiante.codigo" matInput>
+          </mat-form-field>
+          <button mat-raised-button color="warn" (click)="registrarSalida()">
+            Registrar Salida</button>
+      </mat-card>
+</div>
+
+

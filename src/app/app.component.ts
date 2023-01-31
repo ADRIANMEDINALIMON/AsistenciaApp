@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'asistencias';
+
+  rutas: any[] = [
+    {
+      name: 'Registrar asistencia',
+      router: ['registro-asistencia']
+    },
+    {
+      name: 'Registrar salida',
+      router: ['registro-salida']
+    },
+    {
+      name: 'Reporte',
+      router: ['reporte']
+    }
+  ]
+
 }
